@@ -2,119 +2,121 @@
 
 # 
 
-# \## 📌 Project Overview  
+## \## 📌 Project Overview  
 
-# This project presents a \*\*Hospital Emergency Room Dashboard\*\* created in \*\*Microsoft Excel\*\* using \*\*data cleaning, modeling with Power Pivot, and interactive visualizations\*\*.  
+#### This project presents a \*\*Hospital Emergency Room Dashboard\*\* created in \*\*Microsoft Excel\*\* using \*\*data cleaning, modeling with Power Pivot, and interactive visualizations\*\*.  
 
-# The dashboard provides actionable insights into patient demographics, admission status, wait times, and referrals across different hospital departments.  
-
-# 
-
-# \## 📊 Features of the Dashboard  
-
-# \- \*\*Key KPIs:\*\*  
-
-# &nbsp; - Total Patients  
-
-# &nbsp; - Average Wait Time  
-
-# &nbsp; - Patient Satisfaction Score  
-
-# \- \*\*Gender Analysis:\*\* Distribution of male vs. female patients  
-
-# \- \*\*Patient Attendance Status:\*\* On-time vs. delayed arrivals  
-
-# \- \*\*Admission Status:\*\* Admitted vs. Not Admitted patients  
-
-# \- \*\*Age Group Analysis:\*\* Patient count across different age groups  
-
-# \- \*\*Department Referrals:\*\* Breakdown of referrals by hospital departments  
-
-# \- \*\*Monthly Filter (Slicer):\*\* Dynamic analysis by selecting months  
+#### The dashboard provides actionable insights into patient demographics, admission status, wait times, and referrals across different hospital departments.  
 
 # 
 
-# \## 🛠️ Tools \& Technologies  
+## \## 📊 Features of the Dashboard  
 
-# \- \*\*Microsoft Excel\*\*  
+#### \- \*\*Key KPIs:\*\*  
 
-# &nbsp; - Power Query → Data Cleaning  
+#### &nbsp; - Total Patients  
 
-# &nbsp; - Power Pivot → Data Modeling \& Measures  
+#### &nbsp; - Average Wait Time  
 
-# &nbsp; - Pivot Tables \& Charts → Visualizations  
+#### &nbsp; - Patient Satisfaction Score  
 
-# &nbsp; - Slicers → Interactive Filtering  
+#### \- \*\*Gender Analysis:\*\* Distribution of male vs. female patients  
+
+#### \- \*\*Patient Attendance Status:\*\* On-time vs. delayed arrivals  
+
+#### \- \*\*Admission Status:\*\* Admitted vs. Not Admitted patients  
+
+#### \- \*\*Age Group Analysis:\*\* Patient count across different age groups  
+
+#### \- \*\*Department Referrals:\*\* Breakdown of referrals by hospital departments  
+
+#### \- \*\*Monthly Filter (Slicer):\*\* Dynamic analysis by selecting months  
+
+#### 
+
+### \## 🛠️ Tools \& Technologies  
+
+### \- \*\*Microsoft Excel\*\*  
+
+#### &nbsp; - Power Query → Data Cleaning  
+
+#### &nbsp; - Power Pivot → Data Modeling \& Measures  
+
+#### &nbsp; - Pivot Tables \& Charts → Visualizations  
+
+#### &nbsp; - Slicers → Interactive Filtering  
 
 # 
 
-# \## 📂 Project Structure 
+## \## 📂 Project Structure 
 
 # 
 
-# Hospital-Emergency-Room-Dashboard/
+## Hospital-Emergency-Room-Dashboard/
 
-# │
+## │
 
-# ├── Data/ # Raw \& cleaned datasets
+## ├── Data/ # Raw \& cleaned datasets
 
-# ├── Dashboard/ # Excel dashboard file
+## ├── Dashboard/ # Excel dashboard file
 
-# │ ├── Hospital\_ER\_Dashboard.xlsx
+## │ ├── Hospital\_ER\_Dashboard.xlsx
 
-# │
+## │
 
-# ├── Images/ # Screenshots of dashboard
+## ├── Images/ # Screenshots of dashboard
 
-# │ ├── dashboard\_preview.png
+## │ ├── dashboard\_preview.png
 
-# │
+## │
 
-# └── README.md # Project documentation 
-
-
-
-📈 Insights from Dashboard
+## └── README.md # Project documentation 
 
 
 
-Patient admissions are balanced: 52% admitted, 48% not admitted.
+## 📈 Insights from July 2024 Data
 
+### 
 
+#### ✅ 52% of patients admitted, 48% not admitted
 
-59% of patients arrive on time, while 41% are delayed.
+#### 
 
+#### ✅ 59% of patients arrived on time, while 41% were delayed
 
+#### 
 
-The 10–19 years age group has the highest patient count.
+#### ✅ Highest patient count in 10–19 years age group
 
+#### 
 
+#### ✅ Majority (290) did not require referrals; General Practice had the highest referrals (93)
 
-Most patients did not require referrals (290), but General Practice had the most referrals (93).
+#### 
 
+#### ✅ Average wait time: 35.2 minutes
 
+#### 
 
-Average wait time is 35.20 minutes, with a satisfaction score of 4.79/5.
+#### ✅ Patient satisfaction score: 4.79 / 5
 
+### 
 
+## 📌 Future Enhancements
 
-📌 Future Improvements
+### 
 
+#### 📅 Monthly trend analysis of patient inflow
 
+#### 
 
-Add trend analysis of patient inflow over months.
+#### 📉 Distribution charts for wait times
 
+#### 
 
+#### 🏷️ Department-wise satisfaction breakdown
 
-Include wait time distribution (histogram).
+#### 
 
-
-
-Department-wise patient satisfaction insights.
-
-
-
-Dynamic conditional formatting for KPI indicators.
-
-
+#### 🚦 KPI thresholds with conditional formatting (e.g., wait time alerts)
 
